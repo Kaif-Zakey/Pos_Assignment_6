@@ -55,7 +55,7 @@
 </header>
 
 
-<main class="container-fluid m-0 p-0 " style="background: #eaecee" >
+<main class="container-fluid m-0 p-0 " style="background: #eaecee" id="dashboard">
     <div class="container mt-0 mb-0 p-5">
         <div class="row justify-content-center mt-5 mb-0">
             <div class="col-12 col-md-6 col-lg-4 mb-4 ">
@@ -131,6 +131,125 @@
         </div>
     </div>
 </footer>
+
+<main>
+
+    <div class="container-fluid d-flex justify-content-center">
+        <h2 class="custom-text-color">Manage Customer</h2>
+    </div>
+
+    <div class="custom-container-fluid ">
+        <div class="row justify-content-end">
+            <section class="col-md-3 mb-1 d-flex align-items-center">
+                <input type="text" class="form-control shadow-lg me-1" id="searchc" placeholder="Search">
+                <button class="btn btn-primary">Search</button>
+            </section>
+        </div>
+    </div>
+    <div class=".custom-container mt-3  p-4" style="background: #eaecee;width: 100%">
+        <div class="row " style="background: #eaecee;width: 100%">
+            <form>
+                <div class="row d-flex justify-content-between  "  style="width: 100%" >
+                    <!-- First two fields in the first row -->
+                    <div class="col-md-4 mb-3  custom-margin" >
+                        <label for="exampleFirstName" class="form-label">Customer_ID</label>
+                        <input type="text" class="form-control shadow-lg" id="exampleFirstNamec">
+                    </div>
+
+                    <div class="col-md-4 mb-3  ">
+                        <label for="exampleInputPassword1" class="form-label">Name</label>
+                        <input type="password" class="form-control shadow-lg" id="exampleInputPassword1c">
+                    </div>
+                </div>
+
+                <div class="row  d-flex justify-content-between "style="width: 100%" >
+                    <!-- Next two fields in the second row -->
+                    <div class="col-md-4 mb-3 custom-margin">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control shadow-lg" id="exampleInputEmail1c" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="exampleLastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control shadow-lg" id="exampleLastNamec">
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="d-flex justify-content-around mt-3">
+                    <button type="button" class="btn btn-success shadow-sm">Save</button>
+                    <button type="button" class="btn btn-danger shadow-sm">Delete</button>
+                    <button type="button" class="btn btn-warning shadow-sm">Update</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</main>
+
+<main>
+
+    <div class="container-fluid d-flex justify-content-center">
+        <h2 class="custom-text-color ">Manage Item</h2>
+    </div>
+
+    <div class="custom-container-fluid ">
+        <div class="row justify-content-end">
+            <section class="col-md-3 mb-1 d-flex align-items-center">
+                <input type="text" class="form-control shadow-lg me-1" id="search" placeholder="Search">
+                <button class="btn btn-primary">Search</button>
+            </section>
+        </div>
+    </div>
+    <div class=".custom-container mt-3  p-4" style="background: #eaecee;width: 100%">
+        <div class="row " style="background: #eaecee;width: 100%">
+            <form>
+                <div class="row d-flex justify-content-between "style="width: 100%" >
+                    <!-- First two fields in the first row -->
+                    <div class="col-md-4 mb-4  custom-margin" >
+                        <label for="exampleFirstName" class="form-label">Customer_ID</label>
+                        <input type="text" class="form-control shadow-lg" id="exampleFirstName">
+                    </div>
+
+                    <div class="col-md-4 mb-4  ">
+                        <label for="exampleInputPassword1" class="form-label">Name</label>
+                        <input type="password" class="form-control shadow-lg" id="exampleInputPassword1">
+                    </div>
+                </div>
+
+                <div class="row  d-flex justify-content-between"  style="width: 100%" >
+                    <!-- Next two fields in the second row -->
+                    <div class="col-md-4 mb-3 custom-margin">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control shadow-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="exampleLastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control shadow-lg" id="exampleLastName">
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="d-flex justify-content-around mt-3">
+                    <button type="button" class="btn btn-success shadow-sm">Save</button>
+                    <button type="button" class="btn btn-danger shadow-sm">Delete</button>
+                    <button type="button" class="btn btn-warning shadow-sm">Update</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</main>
+
+<script>
+    document.getElementById("dashboard").style.background="red";
+
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
